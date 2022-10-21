@@ -14,14 +14,14 @@
 package org.jctools.queues.unpadded;
 
 import org.jctools.queues.IndexedQueueSizeUtil.IndexedQueue;
-import org.jctools.util.PortableJvmInfo;
+import org.jctools.util.internal.PortableJvmInfo;
 import java.util.AbstractQueue;
 import java.util.Iterator;
 import static org.jctools.queues.LinkedArrayQueueUtil.length;
 import static org.jctools.queues.LinkedArrayQueueUtil.nextArrayOffset;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
-import static org.jctools.util.UnsafeRefArrayAccess.*;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 import org.jctools.queues.*;
 
 /**

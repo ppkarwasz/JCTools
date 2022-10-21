@@ -13,8 +13,8 @@
  */
 package org.jctools.queues.alt;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
 
 abstract class MpmcArrayConcurrentQueueColdFields<E> extends ConcurrentSequencedCircularArray<E> {
 

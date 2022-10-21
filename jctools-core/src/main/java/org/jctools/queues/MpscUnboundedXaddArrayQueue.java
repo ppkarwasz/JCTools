@@ -13,7 +13,7 @@
  */
 package org.jctools.queues;
 
-import org.jctools.util.PortableJvmInfo;
+import org.jctools.util.internal.PortableJvmInfo;
 
 /**
  * An MPSC array queue which grows unbounded in linked chunks.<br>

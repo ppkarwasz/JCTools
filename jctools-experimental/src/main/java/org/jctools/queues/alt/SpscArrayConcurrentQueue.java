@@ -13,11 +13,11 @@
  */
 package org.jctools.queues.alt;
 
-import static org.jctools.queues.alt.SpscArrayConcurrentQueue.OFFER_BATCH_SIZE;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
+import org.jctools.util.internal.UnsafeAccess;
 
-import org.jctools.util.UnsafeAccess;
+import static org.jctools.queues.alt.SpscArrayConcurrentQueue.OFFER_BATCH_SIZE;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
 
 abstract class ProducerFields<E> extends ConcurrentCircularArray<E> {
     protected static final long TAIL_OFFSET = fieldOffset(ProducerFields.class,"producerIndex");

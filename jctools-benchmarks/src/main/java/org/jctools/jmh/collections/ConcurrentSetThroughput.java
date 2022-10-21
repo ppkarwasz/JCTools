@@ -3,7 +3,7 @@ package org.jctools.jmh.collections;
 import org.jctools.maps.NonBlockingHashSet;
 import org.jctools.maps.nbhm_test.SimpleRandom;
 import org.jctools.sets.SingleWriterHashSet;
-import org.jctools.util.Pow2;
+import org.jctools.util.internal.Pow2;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.ThreadParams;
 

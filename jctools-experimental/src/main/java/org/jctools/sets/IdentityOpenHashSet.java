@@ -4,7 +4,7 @@ import java.util.AbstractSet;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import org.jctools.util.Pow2;
+import org.jctools.util.internal.Pow2;
 
 public class IdentityOpenHashSet<E> extends AbstractSet<E> {
     /* current element count */

@@ -15,7 +15,7 @@ package org.jctools.channels;
 
 import static org.jctools.channels.OffHeapFixedMessageSizeRingBuffer.EOF;
 import static org.jctools.channels.OffHeapFixedMessageSizeRingBuffer.MESSAGE_INDICATOR_SIZE;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;

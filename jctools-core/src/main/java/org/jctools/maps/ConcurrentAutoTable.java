@@ -12,10 +12,10 @@
  * limitations under the License.
  */
 package org.jctools.maps;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-
 import java.io.Serializable;
 import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
+
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 
 
 /**

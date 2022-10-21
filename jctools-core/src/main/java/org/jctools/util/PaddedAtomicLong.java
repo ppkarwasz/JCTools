@@ -16,8 +16,10 @@ package org.jctools.util;
 import java.util.function.LongBinaryOperator;
 import java.util.function.LongUnaryOperator;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
+import org.jctools.util.internal.UnsafeAccess;
+
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
 
 abstract class PaddedAtomicLongL1Pad extends Number implements java.io.Serializable {
     private static final long serialVersionUID = 1;

@@ -18,8 +18,8 @@
 package org.jctools.queues.atomic;
 
 import org.jctools.queues.MessagePassingQueue;
-import org.jctools.util.PortableJvmInfo;
-import org.jctools.util.Pow2;
+import org.jctools.util.internal.PortableJvmInfo;
+import org.jctools.util.internal.Pow2;
 
 import java.util.AbstractQueue;
 import java.util.Iterator;

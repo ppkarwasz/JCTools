@@ -13,8 +13,8 @@
  */
 package org.jctools.queues.unpadded;
 
-import org.jctools.util.Pow2;
-import static org.jctools.util.UnsafeRefArrayAccess.*;
+import org.jctools.util.internal.Pow2;
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 import org.jctools.queues.*;
 
 /**

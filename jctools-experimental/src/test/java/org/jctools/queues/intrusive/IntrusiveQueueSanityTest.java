@@ -14,11 +14,11 @@
 package org.jctools.queues.intrusive;
 
 import org.jctools.util.QueueFactory;
+import org.jctools.util.internal.Pow2;
 import org.jctools.util.AtomicQueueFactory;
 import org.jctools.queues.spec.ConcurrentQueueSpec;
 import org.jctools.queues.spec.Ordering;
 import org.jctools.queues.spec.Preference;
-import org.jctools.util.Pow2;
 import org.junit.Before;
 import org.junit.Test;
 

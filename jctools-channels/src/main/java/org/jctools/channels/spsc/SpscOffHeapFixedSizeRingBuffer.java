@@ -13,15 +13,16 @@
  */
 package org.jctools.channels.spsc;
 
-import static org.jctools.util.PortableJvmInfo.CACHE_LINE_SIZE;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.UnsafeRefArrayAccess;
+
 import static org.jctools.util.UnsafeDirectByteBuffer.allocateAlignedByteBuffer;
+import static org.jctools.util.internal.PortableJvmInfo.CACHE_LINE_SIZE;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 
 import java.nio.ByteBuffer;
 
 import org.jctools.channels.OffHeapFixedMessageSizeRingBuffer;
-import org.jctools.util.Pow2;
-import org.jctools.util.UnsafeRefArrayAccess;
 
 /**
  * Channel protocol:

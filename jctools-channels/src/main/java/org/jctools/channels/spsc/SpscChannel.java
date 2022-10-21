@@ -18,8 +18,8 @@ import org.jctools.channels.ChannelConsumer;
 import org.jctools.channels.ChannelProducer;
 import org.jctools.channels.ChannelReceiver;
 import org.jctools.channels.mapping.Mapper;
-import org.jctools.util.Pow2;
 import org.jctools.util.Template;
+import org.jctools.util.internal.Pow2;
 
 import java.nio.ByteBuffer;
 

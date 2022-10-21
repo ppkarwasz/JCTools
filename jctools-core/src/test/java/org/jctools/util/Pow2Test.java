@@ -1,5 +1,6 @@
 package org.jctools.util;
 
+import org.jctools.util.internal.Pow2;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

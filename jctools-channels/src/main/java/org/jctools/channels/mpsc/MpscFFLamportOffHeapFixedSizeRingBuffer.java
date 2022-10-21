@@ -16,12 +16,11 @@ package org.jctools.channels.mpsc;
 import java.nio.ByteBuffer;
 
 import org.jctools.channels.OffHeapFixedMessageSizeRingBuffer;
+import org.jctools.util.internal.PortableJvmInfo;
+import org.jctools.util.internal.Pow2;
 
-import org.jctools.util.PortableJvmInfo;
-import org.jctools.util.Pow2;
-
-import static org.jctools.util.UnsafeAccess.UNSAFE;
 import static org.jctools.util.UnsafeDirectByteBuffer.allocateAlignedByteBuffer;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 
 /**
  * A Multi-Producer-Single-Consumer ring buffer. This implies that

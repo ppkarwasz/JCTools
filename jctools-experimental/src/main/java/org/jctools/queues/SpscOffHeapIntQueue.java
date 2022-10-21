@@ -13,10 +13,10 @@
  */
 package org.jctools.queues;
 
-import org.jctools.util.PortableJvmInfo;
-import org.jctools.util.Pow2;
-import org.jctools.util.UnsafeAccess;
 import org.jctools.util.UnsafeDirectByteBuffer;
+import org.jctools.util.internal.PortableJvmInfo;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.UnsafeAccess;
 
 import java.nio.ByteBuffer;
 import java.util.AbstractQueue;

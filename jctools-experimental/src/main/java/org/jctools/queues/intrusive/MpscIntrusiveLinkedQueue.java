@@ -13,8 +13,8 @@
  */
 package org.jctools.queues.intrusive;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
 
 /**
  * Intrusive MPSC queue implementation based on <a href="http://www.1024cores.net/home/lock-free-algorithms/queues/intrusive-mpsc-node-based-queue">Intrusive

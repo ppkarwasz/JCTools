@@ -14,9 +14,9 @@
 package org.jctools.queues;
 
 import org.jctools.queues.IndexedQueueSizeUtil.IndexedQueue;
-import org.jctools.util.PortableJvmInfo;
-import org.jctools.util.Pow2;
-import org.jctools.util.RangeUtil;
+import org.jctools.util.internal.PortableJvmInfo;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.RangeUtil;
 
 import java.util.AbstractQueue;
 import java.util.Iterator;
@@ -24,9 +24,9 @@ import java.util.NoSuchElementException;
 
 import static org.jctools.queues.LinkedArrayQueueUtil.length;
 import static org.jctools.queues.LinkedArrayQueueUtil.modifiedCalcCircularRefElementOffset;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
-import static org.jctools.util.UnsafeRefArrayAccess.*;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 
 
 abstract class BaseMpscLinkedArrayQueuePad1<E> extends AbstractQueue<E> implements IndexedQueue

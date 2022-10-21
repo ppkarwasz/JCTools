@@ -13,11 +13,11 @@
  */
 package org.jctools.queues.atomic;
 
-import org.jctools.util.Pow2;
-import org.jctools.util.RangeUtil;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.RangeUtil;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
-import static org.jctools.util.Pow2.roundToPowerOfTwo;
+import static org.jctools.util.internal.Pow2.roundToPowerOfTwo;
 import java.util.concurrent.atomic.*;
 import org.jctools.queues.*;
 import static org.jctools.queues.atomic.AtomicQueueUtil.*;

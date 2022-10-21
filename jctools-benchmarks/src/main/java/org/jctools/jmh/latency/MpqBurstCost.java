@@ -15,9 +15,9 @@ package org.jctools.jmh.latency;
 
 import org.jctools.queues.MessagePassingQueue;
 import org.jctools.queues.MessagePassingQueueByTypeFactory;
-import org.jctools.util.PortableJvmInfo;
-import org.jctools.util.Pow2;
-import org.jctools.util.UnsafeAccess;
+import org.jctools.util.internal.PortableJvmInfo;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.UnsafeAccess;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 

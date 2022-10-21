@@ -1,6 +1,6 @@
 package org.jctools.counters;
 
-import org.jctools.util.UnsafeAccess;
+import org.jctools.util.internal.UnsafeAccess;
 
 /**
  * @author Tolstopyatov Vsevolod

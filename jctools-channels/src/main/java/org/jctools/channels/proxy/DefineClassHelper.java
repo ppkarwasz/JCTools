@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.security.ProtectionDomain;
 
-import org.jctools.util.UnsafeAccess;
+import org.jctools.util.internal.UnsafeAccess;
 
 import sun.misc.Unsafe;
 

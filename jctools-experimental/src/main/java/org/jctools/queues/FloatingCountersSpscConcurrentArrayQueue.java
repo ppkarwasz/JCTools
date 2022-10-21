@@ -14,14 +14,14 @@
 package org.jctools.queues;
 
 import org.jctools.util.PaddedAtomicLong;
-import org.jctools.util.Pow2;
+import org.jctools.util.internal.Pow2;
+
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Queue;
-
-import static org.jctools.util.UnsafeAccess.UNSAFE;
 
 abstract class FloatingCaqL0Pad {
     byte b000,b001,b002,b003,b004,b005,b006,b007;//  8b

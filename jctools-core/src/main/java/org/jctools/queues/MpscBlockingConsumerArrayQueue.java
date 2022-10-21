@@ -21,13 +21,13 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.LockSupport;
 
 import org.jctools.queues.IndexedQueueSizeUtil.IndexedQueue;
-import org.jctools.util.Pow2;
-import org.jctools.util.RangeUtil;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.RangeUtil;
 
 import static org.jctools.queues.LinkedArrayQueueUtil.modifiedCalcCircularRefElementOffset;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
-import static org.jctools.util.UnsafeRefArrayAccess.*;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 
 @SuppressWarnings("unused")
 abstract class MpscBlockingConsumerArrayQueuePad1<E> extends AbstractQueue<E> implements IndexedQueue

@@ -13,7 +13,7 @@
  */
 package org.jctools.queues;
 
-import static org.jctools.util.UnsafeLongArrayAccess.*;
+import static org.jctools.util.internal.UnsafeLongArrayAccess.*;
 
 public abstract class ConcurrentSequencedCircularArrayQueue<E> extends ConcurrentCircularArrayQueue<E>
 {

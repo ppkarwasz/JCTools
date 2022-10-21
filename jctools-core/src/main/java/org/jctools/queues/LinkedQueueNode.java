@@ -15,8 +15,8 @@ package org.jctools.queues;
 
 import org.jctools.util.InternalAPI;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
 
 @InternalAPI
 public final class LinkedQueueNode<E>

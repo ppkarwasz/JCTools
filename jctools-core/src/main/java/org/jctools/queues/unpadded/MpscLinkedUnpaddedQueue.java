@@ -13,9 +13,9 @@
  */
 package org.jctools.queues.unpadded;
 
-import org.jctools.util.UnsafeAccess;
 import java.util.Queue;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
+import org.jctools.util.internal.UnsafeAccess;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 import org.jctools.queues.*;
 
 /**

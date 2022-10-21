@@ -13,16 +13,16 @@
  */
 package org.jctools.queues;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
-
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Queue;
 
-import org.jctools.util.Pow2;
-import org.jctools.util.UnsafeAccess;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.UnsafeAccess;
+
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
 
 abstract class MpmcConcurrentQueueSMBufferL0Pad {
     byte b000,b001,b002,b003,b004,b005,b006,b007;//  8b

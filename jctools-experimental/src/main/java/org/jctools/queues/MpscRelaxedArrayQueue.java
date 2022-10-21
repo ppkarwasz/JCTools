@@ -20,17 +20,17 @@
 
 package org.jctools.queues;
 
-import org.jctools.util.PortableJvmInfo;
-import org.jctools.util.Pow2;
-import org.jctools.util.RangeUtil;
-import org.jctools.util.UnsafeRefArrayAccess;
-
 import java.util.AbstractQueue;
 import java.util.Iterator;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
-import static org.jctools.util.UnsafeRefArrayAccess.*;
+import org.jctools.util.internal.PortableJvmInfo;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.RangeUtil;
+import org.jctools.util.internal.UnsafeRefArrayAccess;
+
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 
 abstract class MpscRelaxedArrayQueueL0Pad<E> extends AbstractQueue<E>
 {

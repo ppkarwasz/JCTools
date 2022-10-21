@@ -2,7 +2,7 @@ package org.jctools.maps.nbhm_test.jmh;
 
 import org.jctools.maps.NonBlockingHashMap;
 import org.jctools.maps.nbhm_test.SimpleRandom;
-import org.jctools.util.Pow2;
+import org.jctools.util.internal.Pow2;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.BenchmarkMode;
 import org.openjdk.jmh.annotations.Level;

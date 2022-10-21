@@ -3,7 +3,9 @@ package org.jctools.util;
 import java.nio.Buffer;
 import java.nio.ByteBuffer;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
+import org.jctools.util.internal.UnsafeAccess;
+
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 
 public class UnsafeDirectByteBuffer
 {

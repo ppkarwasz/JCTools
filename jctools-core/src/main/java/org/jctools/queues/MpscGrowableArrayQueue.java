@@ -13,8 +13,8 @@
  */
 package org.jctools.queues;
 
-import org.jctools.util.Pow2;
-import org.jctools.util.RangeUtil;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.RangeUtil;
 
 import static org.jctools.queues.LinkedArrayQueueUtil.length;
 

@@ -15,9 +15,9 @@ package org.jctools.queues;
 
 import org.jctools.util.InternalAPI;
 
-import java.util.Arrays;
+import static org.jctools.util.internal.UnsafeLongArrayAccess.*;
 
-import static org.jctools.util.UnsafeLongArrayAccess.*;
+import java.util.Arrays;
 
 @InternalAPI
 public final class MpmcUnboundedXaddChunk<E> extends MpUnboundedXaddChunk<MpmcUnboundedXaddChunk<E>, E>

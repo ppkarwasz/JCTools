@@ -15,9 +15,9 @@ package org.jctools.jmh.throughput.channels;
 
 import org.jctools.channels.*;
 import org.jctools.channels.spsc.SpscChannel;
-import org.jctools.util.PortableJvmInfo;
-import org.jctools.util.Pow2;
 import org.jctools.util.UnsafeDirectByteBuffer;
+import org.jctools.util.internal.PortableJvmInfo;
+import org.jctools.util.internal.Pow2;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 import org.openjdk.jmh.infra.Control;

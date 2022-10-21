@@ -13,7 +13,7 @@
  */
 package org.jctools.channels.mapping;
 
-import org.jctools.util.UnsafeAccess;
+import org.jctools.util.internal.UnsafeAccess;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

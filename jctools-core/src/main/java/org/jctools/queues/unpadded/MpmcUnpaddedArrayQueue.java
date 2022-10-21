@@ -13,11 +13,11 @@
  */
 package org.jctools.queues.unpadded;
 
-import org.jctools.util.RangeUtil;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
-import static org.jctools.util.UnsafeLongArrayAccess.*;
-import static org.jctools.util.UnsafeRefArrayAccess.*;
+import org.jctools.util.internal.RangeUtil;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeLongArrayAccess.*;
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 import org.jctools.queues.*;
 
 /**

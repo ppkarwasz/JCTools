@@ -11,9 +11,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jctools.util;
+package org.jctools.util.internal;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
+import org.jctools.util.InternalAPI;
+
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 
 @InternalAPI
 public final class UnsafeLongArrayAccess

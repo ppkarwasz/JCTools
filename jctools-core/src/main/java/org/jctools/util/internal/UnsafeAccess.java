@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jctools.util;
+package org.jctools.util.internal;
 
 import sun.misc.Unsafe;
 
@@ -19,6 +19,8 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.util.concurrent.atomic.AtomicReferenceArray;
 import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
+
+import org.jctools.util.InternalAPI;
 
 /**
  * Why should we resort to using Unsafe?<br>

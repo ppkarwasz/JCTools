@@ -13,8 +13,6 @@
  */
 package org.jctools.maps;
 
-import org.jctools.util.RangeUtil;
-
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.*;
@@ -22,9 +20,11 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.atomic.AtomicLongFieldUpdater;
 import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 
+import org.jctools.util.internal.RangeUtil;
+
 import static org.jctools.maps.NonBlockingHashMap.DUMMY_VOLATILE;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
 
 
 /**

@@ -14,13 +14,13 @@
 package org.jctools.queues;
 
 import org.jctools.queues.IndexedQueueSizeUtil.IndexedQueue;
-import org.jctools.util.Pow2;
+import org.jctools.util.internal.Pow2;
+
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 
 import java.util.AbstractQueue;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-
-import static org.jctools.util.UnsafeRefArrayAccess.*;
 
 abstract class ConcurrentCircularArrayQueueL0Pad<E> extends AbstractQueue<E>
 {

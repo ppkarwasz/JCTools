@@ -12,9 +12,6 @@
  * limitations under the License.
  */
 package org.jctools.maps;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
-
 import java.io.IOException;
 import java.io.Serializable;
 import java.lang.reflect.Field;
@@ -22,7 +19,11 @@ import java.util.AbstractSet;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.concurrent.atomic.AtomicInteger;
-import org.jctools.util.RangeUtil;
+
+import org.jctools.util.internal.RangeUtil;
+
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
 
 /**
  * A multi-threaded bit-vector set, implemented as an array of primitive

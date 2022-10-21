@@ -13,11 +13,11 @@
  */
 package org.jctools.queues.unpadded;
 
-import org.jctools.util.Pow2;
-import org.jctools.util.RangeUtil;
-import org.jctools.util.SpscLookAheadUtil;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.RangeUtil;
+import org.jctools.util.internal.SpscLookAheadUtil;
 import static org.jctools.queues.LinkedArrayQueueUtil.length;
-import static org.jctools.util.UnsafeRefArrayAccess.*;
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 import org.jctools.queues.*;
 
 /**

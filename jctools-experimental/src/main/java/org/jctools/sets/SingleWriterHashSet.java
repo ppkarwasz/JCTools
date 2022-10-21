@@ -1,15 +1,15 @@
 package org.jctools.sets;
 
-import org.jctools.util.Pow2;
-
 import java.util.AbstractSet;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
-import static org.jctools.util.UnsafeRefArrayAccess.*;
+import org.jctools.util.internal.Pow2;
+
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 
 public class SingleWriterHashSet<E> extends AbstractSet<E> {
     /* current element count */

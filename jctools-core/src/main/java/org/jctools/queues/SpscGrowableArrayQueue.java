@@ -13,12 +13,12 @@
  */
 package org.jctools.queues;
 
-import org.jctools.util.Pow2;
-import org.jctools.util.RangeUtil;
-import org.jctools.util.SpscLookAheadUtil;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.RangeUtil;
+import org.jctools.util.internal.SpscLookAheadUtil;
 
 import static org.jctools.queues.LinkedArrayQueueUtil.length;
-import static org.jctools.util.UnsafeRefArrayAccess.*;
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 
 /**
  * An SPSC array queue which starts at <i>initialCapacity</i> and grows to <i>maxCapacity</i> in linked chunks,

@@ -9,7 +9,7 @@ import java.util.List;
 import org.jctools.channels.WaitStrategy;
 import org.jctools.channels.mpsc.MpscOffHeapFixedSizeRingBuffer;
 import org.jctools.channels.spsc.SpscOffHeapFixedSizeRingBuffer;
-import org.jctools.util.UnsafeAccess;
+import org.jctools.util.internal.UnsafeAccess;
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.ClassWriter;

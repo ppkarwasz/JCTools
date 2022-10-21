@@ -2,7 +2,7 @@ package org.jctools.queues;
 
 import org.jctools.queues.spec.ConcurrentQueueSpec;
 import org.jctools.queues.spec.Ordering;
-import org.jctools.util.Pow2;
+import org.jctools.util.internal.Pow2;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -10,8 +10,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Queue;
 
-import static org.jctools.util.PortableJvmInfo.CPUs;
 import static org.jctools.util.TestUtil.makeMpq;
+import static org.jctools.util.internal.PortableJvmInfo.CPUs;
 
 @RunWith(Parameterized.class)
 public class QueueSanityTestMpscCompound extends QueueSanityTest

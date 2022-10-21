@@ -1,8 +1,8 @@
 package org.jctools.maps.cat_test;
 
-import org.jctools.util.UnsafeAccess;
+import org.jctools.util.internal.UnsafeAccess;
 
-import static org.jctools.util.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
 
 public final class UnsafeCounter extends Counter {
   public String name() { return "Unsafe"; }

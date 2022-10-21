@@ -13,11 +13,11 @@
  */
 package org.jctools.queues;
 
-import org.jctools.util.UnsafeAccess;
-
 import java.util.Queue;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
+import org.jctools.util.internal.UnsafeAccess;
+
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 
 /**
  * This is a Java port of the MPSC algorithm as presented

@@ -2,7 +2,7 @@ package org.jctools.channels.proxy;
 
 import org.jctools.channels.WaitStrategy;
 import org.jctools.channels.spsc.SpscOffHeapFixedSizeRingBuffer;
-import org.jctools.util.UnsafeAccess;
+import org.jctools.util.internal.UnsafeAccess;
 
 /**
  * Generated code. This is a mockup for methods passing primitives only.

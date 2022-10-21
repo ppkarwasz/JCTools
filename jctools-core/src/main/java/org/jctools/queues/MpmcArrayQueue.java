@@ -13,12 +13,12 @@
  */
 package org.jctools.queues;
 
-import org.jctools.util.RangeUtil;
+import org.jctools.util.internal.RangeUtil;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
-import static org.jctools.util.UnsafeLongArrayAccess.*;
-import static org.jctools.util.UnsafeRefArrayAccess.*;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeLongArrayAccess.*;
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 
 abstract class MpmcArrayQueueL1Pad<E> extends ConcurrentSequencedCircularArrayQueue<E>
 {

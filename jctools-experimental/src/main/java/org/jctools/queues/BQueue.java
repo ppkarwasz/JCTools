@@ -13,14 +13,14 @@
  */
 package org.jctools.queues;
 
-import org.jctools.util.Pow2;
-
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Queue;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
+import org.jctools.util.internal.Pow2;
+
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 
 abstract class BQueueL0Pad {
     byte b000,b001,b002,b003,b004,b005,b006,b007;//  8b

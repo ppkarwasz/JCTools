@@ -14,7 +14,7 @@
 package org.jctools.queues.atomic;
 
 import org.jctools.queues.IndexedQueueSizeUtil.IndexedQueue;
-import org.jctools.util.PortableJvmInfo;
+import org.jctools.util.internal.PortableJvmInfo;
 import java.util.AbstractQueue;
 import java.util.Iterator;
 import java.util.concurrent.atomic.*;

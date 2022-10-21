@@ -19,7 +19,7 @@ import org.jctools.queues.MessagePassingQueue.ExitCondition;
 import org.jctools.queues.MessagePassingQueue.Supplier;
 import org.jctools.queues.MessagePassingQueue.WaitStrategy;
 import org.jctools.util.InternalAPI;
-import org.jctools.util.PortableJvmInfo;
+import org.jctools.util.internal.PortableJvmInfo;
 
 @InternalAPI
 public final class MessagePassingQueueUtil

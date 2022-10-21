@@ -3,7 +3,7 @@ package org.jctools.queues;
 import org.jctools.queues.IndexedQueueSizeUtil.IndexedQueue;
 import org.jctools.queues.spec.ConcurrentQueueSpec;
 import org.jctools.queues.spec.Ordering;
-import org.jctools.util.Pow2;
+import org.jctools.util.internal.Pow2;
 import org.junit.After;
 import org.junit.Test;
 

@@ -13,17 +13,17 @@
  */
 package org.jctools.channels;
 
-import static org.jctools.util.PortableJvmInfo.CACHE_LINE_SIZE;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
 import static org.jctools.util.UnsafeDirectByteBuffer.alignedSlice;
 import static org.jctools.util.UnsafeDirectByteBuffer.allocateAlignedByteBuffer;
+import static org.jctools.util.internal.PortableJvmInfo.CACHE_LINE_SIZE;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 
 import java.nio.ByteBuffer;
 
 import org.jctools.channels.proxy.ProxyChannelRingBuffer;
-import org.jctools.util.Pow2;
 import org.jctools.util.UnsafeDirectByteBuffer;
-import org.jctools.util.UnsafeRefArrayAccess;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.UnsafeRefArrayAccess;
 
 /**
  * Channel protocol:

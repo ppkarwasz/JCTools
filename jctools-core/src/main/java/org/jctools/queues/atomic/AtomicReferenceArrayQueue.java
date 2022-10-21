@@ -15,10 +15,10 @@ package org.jctools.queues.atomic;
 
 import org.jctools.queues.IndexedQueueSizeUtil;
 import org.jctools.queues.IndexedQueueSizeUtil.IndexedQueue;
+import org.jctools.util.internal.Pow2;
 import org.jctools.queues.MessagePassingQueue;
 import org.jctools.queues.QueueProgressIndicators;
 import org.jctools.queues.SupportsIterator;
-import org.jctools.util.Pow2;
 
 import java.util.AbstractQueue;
 import java.util.Iterator;

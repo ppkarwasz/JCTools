@@ -1,5 +1,6 @@
 package org.jctools.util;
 
+import org.jctools.util.internal.RangeUtil;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;

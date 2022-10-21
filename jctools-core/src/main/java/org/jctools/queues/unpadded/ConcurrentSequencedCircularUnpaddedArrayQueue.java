@@ -13,7 +13,7 @@
  */
 package org.jctools.queues.unpadded;
 
-import static org.jctools.util.UnsafeLongArrayAccess.*;
+import static org.jctools.util.internal.UnsafeLongArrayAccess.*;
 import org.jctools.queues.*;
 
 /**

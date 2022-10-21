@@ -240,7 +240,7 @@ abstract class JavaParsingAtomicQueueGenerator extends VoidVisitorAdapter<Void> 
         // remove irrelevant imports
         for (ImportDeclaration importDeclaration : cu.getImports()) {
             String name = importDeclaration.getNameAsString();
-            if (name.startsWith("org.jctools.util.Unsafe")) {
+            if (name.startsWith("org.jctools.util.internal.Unsafe")) {
                 continue;
             }
 

@@ -1,4 +1,6 @@
-package org.jctools.util;
+package org.jctools.util.internal;
+
+import org.jctools.util.InternalAPI;
 
 @InternalAPI
 public class SpscLookAheadUtil

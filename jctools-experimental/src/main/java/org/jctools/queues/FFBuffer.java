@@ -15,9 +15,9 @@ package org.jctools.queues;
 
 import java.util.Queue;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
-import static org.jctools.util.UnsafeRefArrayAccess.*;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 
 abstract class FFBufferL1Pad<E> extends ConcurrentCircularArrayQueue<E>
 {

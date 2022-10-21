@@ -1,16 +1,16 @@
 package org.jctools.queues;
 
 import org.jctools.queues.IndexedQueueSizeUtil.IndexedQueue;
-import org.jctools.util.PortableJvmInfo;
-import org.jctools.util.Pow2;
-import org.jctools.util.UnsafeAccess;
+import org.jctools.util.internal.PortableJvmInfo;
+import org.jctools.util.internal.Pow2;
+import org.jctools.util.internal.UnsafeAccess;
 
 import java.util.AbstractQueue;
 import java.util.Iterator;
 
 import static org.jctools.queues.MpUnboundedXaddChunk.NOT_USED;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
 
 abstract class MpUnboundedXaddArrayQueuePad1<E> extends AbstractQueue<E> implements IndexedQueue
 {

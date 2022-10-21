@@ -13,10 +13,10 @@
  */
 package org.jctools.queues.unpadded;
 
-import org.jctools.util.SpscLookAheadUtil;
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-import static org.jctools.util.UnsafeAccess.fieldOffset;
-import static org.jctools.util.UnsafeRefArrayAccess.*;
+import org.jctools.util.internal.SpscLookAheadUtil;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.fieldOffset;
+import static org.jctools.util.internal.UnsafeRefArrayAccess.*;
 import org.jctools.queues.*;
 
 /**

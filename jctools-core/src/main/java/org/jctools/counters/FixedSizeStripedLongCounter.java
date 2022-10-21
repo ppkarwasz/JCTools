@@ -1,11 +1,11 @@
 package org.jctools.counters;
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
-
 import java.util.concurrent.ThreadLocalRandom;
 
-import org.jctools.util.PortableJvmInfo;
-import org.jctools.util.Pow2;
+import org.jctools.util.internal.PortableJvmInfo;
+import org.jctools.util.internal.Pow2;
+
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 
 /**
  * Basic class representing static striped long counter with
