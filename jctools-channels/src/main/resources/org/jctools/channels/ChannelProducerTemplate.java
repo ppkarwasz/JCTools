@@ -1,5 +1,5 @@
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 import org.jctools.channels.spsc.SpscChannelProducer;
 
 public class {{className}}

@@ -1,5 +1,5 @@
 
-import static org.jctools.util.UnsafeAccess.UNSAFE;
+import static org.jctools.util.internal.UnsafeAccess.UNSAFE;
 import org.jctools.channels.spsc.SpscChannelConsumer;
 import java.nio.ByteBuffer;
 import org.jctools.channels.ChannelReceiver;
